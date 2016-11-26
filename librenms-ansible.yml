@@ -2,7 +2,7 @@
 - hosts: all
   gather_facts: yes
   vars:
-    rocommunity: IB_RO
+    rocommunity: SNMP_STRING
 
   tasks:
    - name: Install webtatic repo
